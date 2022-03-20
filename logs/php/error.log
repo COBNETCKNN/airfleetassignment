@@ -1,0 +1,45 @@
+[16-Mar-2022 17:51:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\COBNETCKNN\Local Sites\airfleet\app\public\wp-includes\script-loader.php on line 2730
+[16-Mar-2022 17:51:27 UTC] PHP Stack trace:
+[16-Mar-2022 17:51:27 UTC] PHP   1. {main}() C:\Users\COBNETCKNN\Local Sites\airfleet\app\public\index.php:0
+[16-Mar-2022 17:51:27 UTC] PHP   2. require() C:\Users\COBNETCKNN\Local Sites\airfleet\app\public\index.php:17
+[16-Mar-2022 17:51:27 UTC] PHP   3. require_once() C:\Users\COBNETCKNN\Local Sites\airfleet\app\public\wp-blog-header.php:19
+[16-Mar-2022 17:51:27 UTC] PHP   4. include() C:\Users\COBNETCKNN\Local Sites\airfleet\app\public\wp-includes\template-loader.php:106
+[16-Mar-2022 17:51:27 UTC] PHP   5. get_footer() C:\Users\COBNETCKNN\Local Sites\airfleet\app\public\wp-content\themes\airfleettheme\front-page.php:5
+[16-Mar-2022 17:51:27 UTC] PHP   6. locate_template() C:\Users\COBNETCKNN\Local Sites\airfleet\app\public\wp-includes\general-template.php:92
+[16-Mar-2022 17:51:27 UTC] PHP   7. load_template() C:\Users\COBNETCKNN\Local Sites\airfleet\app\public\wp-includes\template.php:716
+[16-Mar-2022 17:51:27 UTC] PHP   8. require_once() C:\Users\COBNETCKNN\Local Sites\airfleet\app\public\wp-includes\template.php:770
+[16-Mar-2022 17:51:27 UTC] PHP   9. wp_footer() C:\Users\COBNETCKNN\Local Sites\airfleet\app\public\wp-content\themes\airfleettheme\footer.php:1
+[16-Mar-2022 17:51:27 UTC] PHP  10. do_action() C:\Users\COBNETCKNN\Local Sites\airfleet\app\public\wp-includes\general-template.php:3058
+[16-Mar-2022 17:51:27 UTC] PHP  11. WP_Hook->do_action() C:\Users\COBNETCKNN\Local Sites\airfleet\app\public\wp-includes\plugin.php:474
+[16-Mar-2022 17:51:27 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\COBNETCKNN\Local Sites\airfleet\app\public\wp-includes\class-wp-hook.php:331
+[16-Mar-2022 17:51:27 UTC] PHP  13. wp_maybe_inline_styles() C:\Users\COBNETCKNN\Local Sites\airfleet\app\public\wp-includes\class-wp-hook.php:307
+[16-Mar-2022 17:51:36 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\COBNETCKNN\Local Sites\airfleet\app\public\wp-includes\script-loader.php on line 2730
+[16-Mar-2022 17:51:36 UTC] PHP Stack trace:
+[16-Mar-2022 17:51:36 UTC] PHP   1. {main}() C:\Users\COBNETCKNN\Local Sites\airfleet\app\public\index.php:0
+[16-Mar-2022 17:51:36 UTC] PHP   2. require() C:\Users\COBNETCKNN\Local Sites\airfleet\app\public\index.php:17
+[16-Mar-2022 17:51:36 UTC] PHP   3. require_once() C:\Users\COBNETCKNN\Local Sites\airfleet\app\public\wp-blog-header.php:19
+[16-Mar-2022 17:51:36 UTC] PHP   4. include() C:\Users\COBNETCKNN\Local Sites\airfleet\app\public\wp-includes\template-loader.php:106
+[16-Mar-2022 17:51:36 UTC] PHP   5. get_footer() C:\Users\COBNETCKNN\Local Sites\airfleet\app\public\wp-content\themes\airfleettheme\front-page.php:5
+[16-Mar-2022 17:51:36 UTC] PHP   6. locate_template() C:\Users\COBNETCKNN\Local Sites\airfleet\app\public\wp-includes\general-template.php:92
+[16-Mar-2022 17:51:36 UTC] PHP   7. load_template() C:\Users\COBNETCKNN\Local Sites\airfleet\app\public\wp-includes\template.php:716
+[16-Mar-2022 17:51:36 UTC] PHP   8. require_once() C:\Users\COBNETCKNN\Local Sites\airfleet\app\public\wp-includes\template.php:770
+[16-Mar-2022 17:51:36 UTC] PHP   9. wp_footer() C:\Users\COBNETCKNN\Local Sites\airfleet\app\public\wp-content\themes\airfleettheme\footer.php:1
+[16-Mar-2022 17:51:36 UTC] PHP  10. do_action() C:\Users\COBNETCKNN\Local Sites\airfleet\app\public\wp-includes\general-template.php:3058
+[16-Mar-2022 17:51:36 UTC] PHP  11. WP_Hook->do_action() C:\Users\COBNETCKNN\Local Sites\airfleet\app\public\wp-includes\plugin.php:474
+[16-Mar-2022 17:51:36 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\COBNETCKNN\Local Sites\airfleet\app\public\wp-includes\class-wp-hook.php:331
+[16-Mar-2022 17:51:36 UTC] PHP  13. wp_maybe_inline_styles() C:\Users\COBNETCKNN\Local Sites\airfleet\app\public\wp-includes\class-wp-hook.php:307
+[16-Mar-2022 17:53:47 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\COBNETCKNN\Local Sites\airfleet\app\public\wp-includes\script-loader.php on line 2730
+[16-Mar-2022 17:53:47 UTC] PHP Stack trace:
+[16-Mar-2022 17:53:47 UTC] PHP   1. {main}() C:\Users\COBNETCKNN\Local Sites\airfleet\app\public\index.php:0
+[16-Mar-2022 17:53:47 UTC] PHP   2. require() C:\Users\COBNETCKNN\Local Sites\airfleet\app\public\index.php:17
+[16-Mar-2022 17:53:47 UTC] PHP   3. require_once() C:\Users\COBNETCKNN\Local Sites\airfleet\app\public\wp-blog-header.php:19
+[16-Mar-2022 17:53:47 UTC] PHP   4. include() C:\Users\COBNETCKNN\Local Sites\airfleet\app\public\wp-includes\template-loader.php:106
+[16-Mar-2022 17:53:47 UTC] PHP   5. get_footer() C:\Users\COBNETCKNN\Local Sites\airfleet\app\public\wp-content\themes\airfleettheme\front-page.php:5
+[16-Mar-2022 17:53:47 UTC] PHP   6. locate_template() C:\Users\COBNETCKNN\Local Sites\airfleet\app\public\wp-includes\general-template.php:92
+[16-Mar-2022 17:53:47 UTC] PHP   7. load_template() C:\Users\COBNETCKNN\Local Sites\airfleet\app\public\wp-includes\template.php:716
+[16-Mar-2022 17:53:47 UTC] PHP   8. require_once() C:\Users\COBNETCKNN\Local Sites\airfleet\app\public\wp-includes\template.php:770
+[16-Mar-2022 17:53:47 UTC] PHP   9. wp_footer() C:\Users\COBNETCKNN\Local Sites\airfleet\app\public\wp-content\themes\airfleettheme\footer.php:1
+[16-Mar-2022 17:53:47 UTC] PHP  10. do_action() C:\Users\COBNETCKNN\Local Sites\airfleet\app\public\wp-includes\general-template.php:3058
+[16-Mar-2022 17:53:47 UTC] PHP  11. WP_Hook->do_action() C:\Users\COBNETCKNN\Local Sites\airfleet\app\public\wp-includes\plugin.php:474
+[16-Mar-2022 17:53:47 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\COBNETCKNN\Local Sites\airfleet\app\public\wp-includes\class-wp-hook.php:331
+[16-Mar-2022 17:53:47 UTC] PHP  13. wp_maybe_inline_styles() C:\Users\COBNETCKNN\Local Sites\airfleet\app\public\wp-includes\class-wp-hook.php:307
