@@ -18,18 +18,18 @@ function register_acf_block_types() {
       'name'              => 'content',
       'title'             => __('Content'),
       'description'       => __('A custom content block.'),
-      'render_template'   => 'template-parts/blocks/section/content.php',
-      'icon'              => 'dashicons-media-text',
+      'render_template'   => 'template-parts/section/content.php',
+      'icon'              => 'media-text',
       'keywords'          => array( 'content', 'text' ),
    ));
 
    // image block
     acf_register_block_type(array(
-      'name'              => 'image',
-      'title'             => __('Image'),
+      'name'              => 'picture',
+      'title'             => __('Picture'),
       'description'       => __('A custom image block.'),
-      'render_template'   => 'template-parts/blocks/section/image.php',
-      'icon'              => 'dashicons-format-image',
+      'render_template'   => 'template-parts/section/picture.php',
+      'icon'              => 'format-image',
       'keywords'          => array( 'image', 'picture' ),
    ));
 }
