@@ -1,12 +1,8 @@
 jQuery(document).ready(function(jQuery){
 
-jQuery('.moreless-button').click(function() {
-  jQuery('.moretext').slideToggle();
-  if (jQuery('.moreless-button').text() == "Read more") {
-    jQuery(this).text("Read less")
-  } else {
-    jQuery(this).text("Read more")
-  }
-});
+  jQuery(".moreless-button").click(function() {
+    jQuery(this).siblings('.moretext').slideToggle();
+    jQuery(this).addClass('removeButton');
+  });
 
 });

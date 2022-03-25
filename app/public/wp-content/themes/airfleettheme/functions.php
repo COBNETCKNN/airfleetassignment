@@ -36,3 +36,24 @@ function register_acf_block_types() {
 if( function_exists('acf_register_block_type') ) {
    add_action('acf/init', 'register_acf_block_types');
 }
+
+
+// Local JSON for custom fields
+define( 'MY_PLUGIN_DIR_PATH', untrailingslashit( plugin_dir_path( __FILE__ ) ) );
+ 
+function my_acf_json_save_point( $path ) {
+    
+    // Update path
+    $path = MY_PLUGIN_DIR_PATH. '/acf-json';
+    // Return path
+    return $path;
+}
+add_filter('acf/settings/save_json', 'my_acf_json_save_point');
+
+// Exclude node_modules from exporting All In One Migration Plugin
+add_filter( 'ai1wm_exclude_themes_from_export',
+function ( $exclude_filters ) {
+  $exclude_filters[] = 'airfleettheme/node_modules'; // insert your theme name
+  return $exclude_filters;
+} );
+ 
